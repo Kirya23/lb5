@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include <QApplication>
 
+  // "example" - префикс для пути к тестам
 // ==================== Точка входа ====================
 int main(int argc, char *argv[]) {
 
@@ -8,5 +9,7 @@ int main(int argc, char *argv[]) {
     MainWindow w;
     w.show();
     return a.exec();
+
+
 }
 

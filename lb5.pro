@@ -28,3 +28,13 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+
+# Пути Google Test
+INCLUDEPATH += "C:/Users/PiroZHoCheck_2.0/Desktop/lib5/googletest/googletest/include"
+LIBS += -L"C:/Users/PiroZHoCheck_2.0/Desktop/lib5/googletest/build/lib"
+
+#
+
+DISTFILES += \
+    tst_unit_test.qml
